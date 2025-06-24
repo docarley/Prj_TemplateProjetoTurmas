@@ -34,13 +34,21 @@ header h1 {
     gap: 16px;
 }
 
-#intro p {
+#intro__text{
+    width:70%;
+    line-height: 2rem;
+}
+
+#intro p {    
     text-align: center;
 }
 
-#intro ul {
+#intro ul {    
     list-style-position: inside;
+    padding-left: 10%;
 }
+
+
 
 #btn-votar {
     display: block;
